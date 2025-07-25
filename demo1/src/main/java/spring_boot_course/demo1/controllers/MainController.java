@@ -13,4 +13,9 @@ public class MainController {
         return "Hello, world!";
     }
 
+    @GetMapping("/luck")
+    public String goodLuck(){
+        return "Good Luck!";
+    }
+
 }
